@@ -17,6 +17,7 @@ import "./App.css";
 import Header from "./Header";
 import Part2 from "./Part2";
 import SliderPart from "./sliderPart";
+import Part3 from "./Part3";
 
 
 function App() {
@@ -32,23 +33,10 @@ function App() {
       <Header/>
       <Part2/>
       <SliderPart/>
+      <Part3/>  
+
 
    
-
-
-      <section className="part3">
-        <div>
-          <h3> RECENT PROJECTS </h3>
-        </div>
-        <div></div>
-        <div>
-          <p>
-            {" "}
-            Avada & Avada is an award winning company with a reputation for
-            consistent innovation at the highest level of design.
-          </p>
-        </div>
-      </section>
 
       <section className="gallury">
         <div>
