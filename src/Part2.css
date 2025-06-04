@@ -1,0 +1,72 @@
+
+
+.part2 {
+  padding: 120px 30px;
+  display: flex;
+  justify-content: space-evenly;
+
+  > div {
+    width: 32%;
+    margin: 0 15px;
+
+    &:nth-of-type(1) {
+      > h2 {
+        font-size: 50px;
+        color: var(--darkgray1);
+        line-height: 50px;
+        font-weight: 100;
+      }
+
+      > .linep2 {
+        width: 55%;
+        background-color: rgba(203, 200, 200, 0.407);
+        height: 2.5px;
+        margin: 40px 0 30px;
+      }
+
+      > p {
+        font-size: 22px;
+        color: var(--darkgray2);
+        line-height: 45px;
+        font-style: italic;
+      }
+    }
+
+    &:nth-of-type(2) {
+      > figure {
+        margin-bottom: 16px;
+        overflow: hidden;
+        height: 210px;
+
+        > img {
+          width: 100%;
+          transition: 1s;
+          overflow: hidden;
+          height: 100%;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      > p {
+        color: var(--darkgray2);
+        line-height: 35px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 13px;
+      }
+    }
+
+    &:nth-of-type(3) {
+      > p {
+        color: var(--darkgray2);
+        line-height: 35px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 13px;
+      }
+    }
+  }
+}
