@@ -1,0 +1,110 @@
+.slid1 {
+  overflow: hidden;
+  position: relative;
+
+  > div {
+    width: 150%;
+    height: 300px;
+    transform: translate(0);
+    animation: slid 7s linear alternate infinite;
+    background-image: url(assets/img/home-section1.webp);
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  > p {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+  }
+}
+.slid2 {
+  overflow: hidden;
+  position: relative;
+
+  > div {
+    width: 150%;
+    height: 300px;
+    transform: translate(-450px);
+    animation: slid2 7s linear alternate infinite;
+    background-image: url(assets/img/home-section2.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  > p {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+  }
+}
+.slid3 {
+  overflow: hidden;
+  position: relative;
+
+  > div {
+    width: 150%;
+    height: 300px;
+    transform: translate(0);
+    animation: slid 7s linear alternate infinite;
+    background-image: url(assets/img/home-section3.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  > p {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+  }
+}
+.slid4 {
+  overflow: hidden;
+  position: relative;
+
+  > div {
+    width: 150%;
+    height: 300px;
+    transform: translate(-450px);
+    animation: slid2 7s linear alternate infinite;
+    background-image: url(assets/img/home-section4.webp);
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  > p {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+  }
+}
+.slid5 {
+  overflow: hidden;
+  position: relative;
+
+  > div {
+    width: 150%;
+    height: 300px;
+    transform: translate(0);
+    animation: slid 7s linear alternate infinite;
+    background-image: url(assets/img/home-section5.webp);
+    background-position: center;
+    background-size: cover;
+  }
+
+  > p {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+  }
+}

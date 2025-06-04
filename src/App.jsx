@@ -16,6 +16,7 @@ import image66 from "./assets/img/66.webp";
 import "./App.css";
 import Header from "./Header";
 import Part2 from "./Part2";
+import SliderPart from "./sliderPart";
 
 
 function App() {
@@ -30,29 +31,10 @@ function App() {
 
       <Header/>
       <Part2/>
+      <SliderPart/>
 
    
 
-      <section className="slid1">
-        <div></div>
-        <p>ARCHITECTURE</p>
-      </section>
-      <section className="slid2">
-        <div></div>
-        <p>INTERIOR DESIGN</p>
-      </section>
-      <section className="slid3">
-        <div></div>
-        <p>LANDSCAPE</p>
-      </section>
-      <section className="slid4">
-        <div></div>
-        <p>ENGINEERING</p>
-      </section>
-      <section className="slid5">
-        <div></div>
-        <p>PROJECT MANAGEMENT</p>
-      </section>
 
       <section className="part3">
         <div>
